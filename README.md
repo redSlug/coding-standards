@@ -3,7 +3,8 @@
 
 ```bash
 virtualenv --python=python3.7 venv
-source venv/bin/activate
+pip install black
+pip install lint
 pylint lint_example.py
 black black_example.py
 ```
